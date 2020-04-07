@@ -1,20 +1,25 @@
-# Hello, Good Evening, and Welcome
-Welcome to the innards of [my website](https://vchrombie.github.io/).
 
-## Installation
-If you want to run this site locally:
+# vchrombie.github.io
+personal website :man_dancing: + jekyll blog :balloon:
 
-Open Terminal(CTRL+ALT+T) and
-- `git clone https://github.com/vchrombie/vchrombie.github.io` to clone it somewhere
-- `cd vchrombie.github.io/` to navigate to the folder
-- `python3 -m http.server`
-- Open browser and navigate to `http://localhost:8000/`
-- Party. You can see the website running.
+## Contents 
+1. Landing Page: [https://vchrombie.github.io](https://vchrombie.github.io/)
+2. Portfolio: [https://vchrombie.github.io/portfolio](https://vchrombie.github.io/portfolio)
+3. Blog: [https://vchrombie.github.io/blog](https://vchrombie.github.io/blog)
 
-## GitHub Pages
-This site is hosted on GitHub pages. You can read more about it from my blog post, here  https://vchrombie.github.io/blog/tutorial/2017/08/27/gh-pages/
-
-## Who This Repo is For
-This repo is mostly for me. I, like many of you, host my code on GitHub for reasons of portability, ease of work, and peace of mind. Beyond my own needs, I have also open-sourced this repo for you, the reader (and most likely developer), to explore the things that make my site tick.
-
-If you like my work, please Star 🌟 the repo. If you find any suggestions/typos ping me or you can drop a PR here.
+## How to setup this website :sparkles:
+ 
+* Firstly fork :fork_and_knife: this [repository](https://github.com/vchrombie/vchrombie.github.io). Make sure you star :star: the repo before forking.
+* Rename the repo as `username.github.io`, where ce the username with your GitHub username.
+* Clone the forked repository.
+	```
+	$ git clone https://github.com/username/username.github.io
+	```
+* Make the necessary changes and try to build it locally to view the changes.  
+	```
+	$ bundle install
+	
+	$ bundle exec jekyll serve
+	```
+* Push the changes to GitHub and enable [github-pages](https://pages.github.com/)) in the Settings of the repository.
+* Your website is hosted right now. Check it out at `username.github.io`.

@@ -54,3 +54,28 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+
+
+.lessons{
+  background:#A2DED0;
+  color:#2A2F36;
+  text-align:center;
+  padding:1em
+}
+
+.lessons a{
+  text-decoration:underline;
+  color:inherit
+}
+
+.lessons a:hover{
+  color:inherit
+}
+
+.lessons #fons-book{
+  font-size:inherit !important;
+  background:#2A2F36 !important;
+  color:white !important;
+  border:none !important;
+  padding:0.25rem 0.5rem !important
+}
