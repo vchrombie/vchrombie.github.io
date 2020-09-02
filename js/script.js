@@ -8,12 +8,12 @@
 $(function(){
 	$("#about-me").typed({
 		strings: [
-			"Graduate 👨‍🎓 from Amrita Vishwa Vidyapeetham.",
+			"Graduate from Amrita Vishwa Vidyapeetham.",
 			"Mentor @amfoss.",
 			"GSoC Student Developer with CHAOSS.",
-			"Data Detective 🕵️‍♂️.",
+			"Data Detective.",
 			"Open Source Enthusiast.",
-			"Web Developer 💻.",
+			"Web Developer.",
 			"Optimist | Foodie | Techie."
 		],
 		typeSpeed: 30,
