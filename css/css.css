@@ -5,6 +5,16 @@
 * @Last Modified time: 2017-07-01 18:43:16
 */
 
+body {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #1A202C;
+  color: white;
+}
+
 .container{
   font-size: 60%;
 }
