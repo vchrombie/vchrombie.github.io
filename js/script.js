@@ -1,7 +1,7 @@
 $(function(){
 	$("#about-me").typed({
 		strings: [
-			"Backend Developer at Bitergia.",
+			"Ex-Backend Developer at Bitergia.",
 			"Graduate from Amrita Vishwa Vidyapeetham.",
 			"Mentor @amfoss.",
 			"GSoC 2020 Participant with CHAOSS.",
