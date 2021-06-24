@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/vchrombie
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vchrombie.github.io
+  * I am vchrombie (https://keybase.io/vchrombie) on keybase.
+  * I have a public key ASB2DWf8IaMKLDiWvCACBdmkE6Jlj86rCtH-N38PDeE2jQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120760d67fc21a30a2c3896bc200205d9a413a2658fceab0ad1fe377f0f0de1368d0a",
+      "host": "keybase.io",
+      "kid": "0120760d67fc21a30a2c3896bc200205d9a413a2658fceab0ad1fe377f0f0de1368d0a",
+      "uid": "f7a35cdcb4bc63210865431e060ac419",
+      "username": "vchrombie"
+    },
+    "merkle_root": {
+      "ctime": 1624545030,
+      "hash": "1afbc158176f2f3ff078e85808567e352b0adab5aa26ebc05e241db9b942432c4a57af2262df077a4dced918d09688da347a277c6edef90f92593886a327943f",
+      "hash_meta": "dcb75f0431e5c3965454a499a0ac0501f4b0c276c1ea30383dcd97e8e3f3dd42",
+      "seqno": 20250150
+    },
+    "service": {
+      "entropy": "UaqY/Fgj1OyCIA4tTFqQ64CU",
+      "hostname": "vchrombie.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.7.1"
+  },
+  "ctime": 1624545064,
+  "expire_in": 504576000,
+  "prev": "10cf53258e4ff478f8e8bd18763534e83a6fbfffbd257eec8cb8df75d2ea0f37",
+  "seqno": 15,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgdg1n/CGjCiw4lrwgAgXZpBOiZY/OqwrR/jd/Dw3hNo0Kp3BheWxvYWTESpcCD8QgEM9TJY5P9Hj46L0YdjU06Dpvv/+9JX7sjLjfddLqDzfEIPsluYALdbrXtoNyqObR3v33jJ2hb/OXT2ioBD7/zxAuAgHCo3NpZ8RAip00bSIHLIX0GGnu0h/wZycxU6c3Q43fwwqggFxQmSdezGIx/7Zgfa6w3VMA9PD+x1ipaRBLXFpFQM6+tXt0AKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILXuBd5Q7xApDYXMv8Fao5S9PTFRRi9mcc4RpAHJQvcso3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vchrombie
+
+==================================================================
