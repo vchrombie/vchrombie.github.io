@@ -1,14 +1,14 @@
 $(function(){
 	$("#about-me").typed({
 		strings: [
-			"Ex-Backend Developer at Bitergia.",
-			"Graduate from Amrita Vishwa Vidyapeetham.",
-			"Mentor @amfoss.",
-			"GSoC 2020 Participant with CHAOSS.",
-			"Data Detective.",
-			"Open Source Enthusiast.",
-			"Web Developer.",
-			"Optimist | Foodie | Techie"
+			"incoming grad (mscs) @nyutandon.",
+			"ex- @bitergia @beehyvsoftware.",
+			"undergrad from @amritaedu.",
+			"mentor @amfoss_in.",
+			"gsoc 2020 w/ @chaossproj.",
+			"data detective.",
+			"open-source enthusiast.",
+			"optimist | foodie | techie"
 		],
 		typeSpeed: 30,
 		loop: true,
