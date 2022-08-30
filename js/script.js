@@ -1,7 +1,7 @@
 $(function(){
 	$("#about-me").typed({
 		strings: [
-			"incoming grad (mscs) @nyutandon.",
+			"mscs grad student @nyutandon.",
 			"ex- @bitergia @beehyvsoftware.",
 			"undergrad from @amritaedu.",
 			"mentor @amfoss_in.",
