@@ -1,11 +1,8 @@
 
 # vchrombie.github.io
-personal website :man_dancing: + jekyll blog :balloon:
+personal website :man_dancing: 
 
-## Contents 
-1. Landing Page: [https://vchrombie.github.io](https://vchrombie.github.io/)
-2. Portfolio: [https://vchrombie.github.io/portfolio](https://vchrombie.github.io/portfolio)
-3. Blog: [https://vchrombie.github.io/blog](https://vchrombie.github.io/blog)
+https://vchrombie.github.io
 
 ## How to setup this website :sparkles:
  
