@@ -1,25 +1,35 @@
 
 # vchrombie.github.io
-personal website :man_dancing: + jekyll blog :balloon:
+personal website
 
-## Contents 
-1. Landing Page: [https://vchrombie.github.io](https://vchrombie.github.io/)
-2. Portfolio: [https://vchrombie.github.io/portfolio](https://vchrombie.github.io/portfolio)
-3. Blog: [https://vchrombie.github.io/blog](https://vchrombie.github.io/blog)
+https://vchrombie.github.io
 
-## How to setup this website :sparkles:
- 
-* Firstly fork :fork_and_knife: this [repository](https://github.com/vchrombie/vchrombie.github.io). Make sure you star :star: the repo before forking.
-* Rename the repo as `username.github.io`, where ce the username with your GitHub username.
-* Clone the forked repository.
-	```
-	$ git clone https://github.com/username/username.github.io
-	```
-* Make the necessary changes and try to build it locally to view the changes.  
-	```
-	$ bundle install
-	
-	$ bundle exec jekyll serve
-	```
-* Push the changes to GitHub and enable [github-pages](https://pages.github.com/)) in the Settings of the repository.
-* Your website is hosted right now. Check it out at `username.github.io`.
+## Setup
+
+1. Click the "Fork" button. You can change the repository name to `<username>.github.io` where `<username>` is your GitHub username.
+2. Clone the repository to your local machine using the URL and navigate to the repository directory
+```
+git clone https://github.com/<username>/<username>.github.io
+cd <username>.github.io
+```
+3. Create a new branch for your changes
+```
+git checkout -b main
+```
+4. Make changes to the files in the repository.. These could include adding or modifying static HTML files, images, or other assets.
+5. You can set up a local web server and test your static site on your local machine. 
+```
+python -m http.server
+```
+6. Add and commit your changes to the repository
+```
+git add .
+git commit -m "Finally joining the 21st century and learning how to make a static site"
+```
+7. Push your changes to your fork on GitHub
+```
+git push origin main
+```
+8. Go to the GitHub Pages settings for your fork and choose the branch you pushed (`main`) as the source for your GitHub Pages site.
+
+That's it! Your static site should now be live on GitHub Pages. You can access it by going to `https://<username>.github.io/`.
