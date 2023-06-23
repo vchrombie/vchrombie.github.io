@@ -2,7 +2,7 @@ $(function(){
 	$("#about-me").typed({
 		strings: [
 			"mscs grad student @nyutandon.",
-			"devops floodnet.nyc @nyu_cusp.",
+			"engineer at floodnet.nyc @nyu_cusp.",
 			"ex- @bitergia @beehyvsoftware.",
 			"undergrad from @amritaedu.",
 			"mentor @amfoss_in.",
