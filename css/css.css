@@ -2,22 +2,23 @@
 * @Author: Venu
 * @Date:   2017-06-22 10:45:00
 * @Last Modified by:   Venu
-* @Last Modified time: 2017-07-01 18:43:16
+* @Last Modified time: 2024-06-06 20:03:34
 */
 
-.container{
-  font-size: 60%;
+.container {
+  font-size: 70%;
 }
-.vertical-center{
-  margin-top: 8%;
+
+.vertical-center {
+  margin-top: 10%;
   font-family: 'Open Sans', sans-serif;
 }
 
-#introduction{
-  font-size: 6em;
+#introduction {
+  font-size: 8em;
 }
 
-.typed-cursor{
+.typed-cursor {
   opacity: 1;
   -webkit-animation: blink 0.7s infinite;
   -moz-animation: blink 0.7s infinite;
@@ -25,26 +26,88 @@
   font-size: 4.5em;
 }
 
-#about-me{
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#about-me {
   font-size: 4em;
 }
 
-#resume{
+#bio {
   font-size: 4em;
 }
 
-.social-links{
+.social-links {
   padding-top: 2%;
 }
 
-.social-links li{
+@media (min-width: 992px) and (max-width: 1200px) {
+  .social-links {
+    padding-top: 0%;
+  }
+
+  #introduction {
+    font-size: 7em;
+  }
+}
+
+.social-links-container {
+  margin-left: -2%;
+}
+
+@media (max-width: 992px) {
+  .social-links-container {
+    margin-left: 3%;
+  }
+}
+
+.social-links li {
   display: inline-block;
   width: 9em;
   height: 50%;
   border-radius: 50%;
 }
 
-.social-links svg{
+.social-links svg {
   position: relative;
   float: left;
   height: 100%;
@@ -52,89 +115,100 @@
   padding: 25%;
 }
 
-.social-links path, .social-links ellipse, .social-links circle{
+.social-links path,
+.social-links ellipse,
+.social-links circle {
   fill: #FFF;
 }
 
-.social-links .github{
+.social-links .github {
   background-color: #171515;
 }
 
-.social-links .gitlab{
+.social-links .gitlab {
   background-color: #E24329;
 }
 
-.social-links .twitter{
+.social-links .twitter {
   background-color: #1DA1F2;
 }
 
-.social-links .youtube{
+.social-links .youtube {
   background-color: #FF0000;
 }
 
-.social-links .linkedin{
+.social-links .linkedin {
   background-color: #0072B1;
 }
 
-.social-links .stackoverflow{
+.social-links .stackoverflow {
   background-color: #F48024;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  .social-links{
+  .social-links {
     padding-top: 0%;
   }
-  #introduction{
+
+  #introduction {
     font-size: 7em;
   }
 }
 
-.social-links-container{
+.social-links-container {
   margin-left: -2%;
 }
 
-@media (max-width: 992px){
-  .social-links-container{
+@media (max-width: 992px) {
+  .social-links-container {
     margin-left: 0%;
   }
 }
 
 @media (min-width: 767px) and (max-width: 992px) {
-  .typed-cursor{
+  .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
     font-size: 4vw;
   }
-  .vertical-center{
+
+  .vertical-center {
     margin-top: 15%;
     font-family: 'Open Sans', sans-serif;
   }
-  .profile{
+
+  .profile {
     margin: 0 auto;
     width: 50%;
   }
-  .res-content{
+
+  .res-content {
     margin: 0 auto;
     width: 100%;
     position: relative;
     text-align: center;
   }
-  #introduction{
+
+  #introduction {
     font-size: 8vw;
   }
-  #about-me{
+
+  #about-me {
     font-size: 4vw;
   }
-  #resume{
+
+  #bio {
     font-size: 4vw;
   }
-  .social-links{
-    padding-left:2%;
-    padding-right:4%;
+
+  .social-links {
+    padding-left: 2%;
+    padding-right: 4%;
   }
-  .social-links li{
+
+  .social-links li {
     display: inline-block;
     width: 10.5vw;
     height: 50%;
@@ -143,42 +217,55 @@
 }
 
 @media (max-width: 767px) {
-  .typed-cursor{
+  .link-wrap-center {
+    text-align: center;
+  }
+
+  .typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
     font-size: 5.3vw;
   }
-  .vertical-center{
+
+  .vertical-center {
     margin-top: 30%;
     font-family: 'Open Sans', sans-serif;
   }
-  .profile{
+
+  .profile {
     margin: 0 auto;
     width: 50%;
   }
-  .res-content{
+
+  .res-content {
     margin: 0 auto;
     width: 100%;
     position: relative;
     text-align: center;
     margin-top: 8%;
   }
-  #introduction{
-    font-size: 8.5vw;
+
+  #introduction {
+    font-size: 8vw;
   }
-  #about-me{
+
+  #about-me {
     font-size: 5.3vw;
   }
-  #resume{
+
+  #bio {
     font-size: 5.3vw;
   }
-  .social-links{
-    padding-left:2%;
-    padding-right:4%;
+
+  .social-links {
+    padding-left: 2%;
+    padding-right: 4%;
+    display: inline-block;
   }
-  .social-links li{
+
+  .social-links li {
     display: inline-block;
     width: 12vw;
     height: 50%;
@@ -186,23 +273,47 @@
   }
 }
 
-@keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-webkit-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-@-moz-keyframes blink{
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
 
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
 
 /*TEXT STYLES CSS*/
 
@@ -215,6 +326,7 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTa-j2U0lmluP9RWlSytm3ho.woff2) format('woff2');
   unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
 }
+
 /* cyrillic */
 @font-face {
   font-family: 'Open Sans';
@@ -223,6 +335,7 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTZX5f-9o1vgP2EXwfjgl7AY.woff2) format('woff2');
   unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
+
 /* greek-ext */
 @font-face {
   font-family: 'Open Sans';
@@ -231,6 +344,7 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTRWV49_lSm1NYrwo-zkhivY.woff2) format('woff2');
   unicode-range: U+1F00-1FFF;
 }
+
 /* greek */
 @font-face {
   font-family: 'Open Sans';
@@ -239,6 +353,7 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTaaRobkAwv3vxw3jMhVENGA.woff2) format('woff2');
   unicode-range: U+0370-03FF;
 }
+
 /* vietnamese */
 @font-face {
   font-family: 'Open Sans';
@@ -247,6 +362,7 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTf8zf_FOSsgRmwsS7Aa9k2w.woff2) format('woff2');
   unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
 }
+
 /* latin-ext */
 @font-face {
   font-family: 'Open Sans';
@@ -255,6 +371,7 @@
   src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTT0LW-43aMEzIO6XUTLjad8.woff2) format('woff2');
   unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
   font-family: 'Open Sans';
@@ -265,28 +382,28 @@
 }
 
 
-.lessons{
-  background:#A2DED0;
-  color:#2A2F36;
-  text-align:center;
-  padding:1em
+.lessons {
+  background: #A2DED0;
+  color: #2A2F36;
+  text-align: center;
+  padding: 1em
 }
 
-.lessons a{
-  text-decoration:underline;
-  color:inherit
+.lessons a {
+  text-decoration: underline;
+  color: inherit
 }
 
-.lessons a:hover{
-  color:inherit
+.lessons a:hover {
+  color: inherit
 }
 
-.lessons #fons-book{
-  font-size:inherit !important;
-  background:#2A2F36 !important;
-  color:white !important;
-  border:none !important;
-  padding:0.25rem 0.5rem !important
+.lessons #fons-book {
+  font-size: inherit !important;
+  background: #2A2F36 !important;
+  color: white !important;
+  border: none !important;
+  padding: 0.25rem 0.5rem !important
 }
 
 
@@ -294,22 +411,51 @@
 /* https://codepen.io/jakejarvis/pen/pBZWZw */
 
 .wave {
-  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.5s;        /* Change to speed up or slow down */
-  animation-iteration-count: infinite;  /* Never stop waving :) */
-  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
   display: inline-block;
 }
 
 @keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
-  100% { transform: rotate( 0.0deg) }
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0.0deg)
+  }
 }
 
 /* name abbr */
@@ -317,4 +463,3 @@
 abbr {
   text-decoration: unset;
 }
-
