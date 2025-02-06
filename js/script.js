@@ -1,13 +1,11 @@
 $(function () {
   $("#about-me").typed({
     strings: [
-      "mscs grad student @nyutandon",
-      "engineer at floodnet.nyc @nyu_cusp",
-      "ex- @bitergia @beehyvsoftware",
-      "undergrad from @amritaedu",
+      "devops &amp; sre @blackrock",
+      "grad @nyutandon",
+      "undergrad @amritaedu",
       "mentor @amfoss_in",
-      "gsoc 2020 w/ @chaossproj",
-      "data detective",
+      "gsoc @chaossproj",
       "open-source enthusiast",
     ],
     typeSpeed: 30,
